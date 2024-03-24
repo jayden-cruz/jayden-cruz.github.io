@@ -1,0 +1,67 @@
+
+/*
+Theme Name: Tally Hall Theme
+Theme URI: http://www.monsterdesignco.com
+Description: Theme design for Tally Hall
+Version: 1.0
+Author: Amanda Burnham
+*/
+
+body {
+	background-color: #000;
+}
+
+img.logo {
+	opacity: 0;
+}
+
+div {
+	width: 700px;
+	height: 700px;
+	margin: 200px auto 0;
+	position: relative;	
+}
+
+ul {
+	position: absolute;
+	top: 200px;
+	left: 300px;
+}
+img.logo, img.logo-off {
+	position: absolute;
+	top: -70px;
+	left: -80px;
+	border: none;
+}
+
+a.icon {
+	width: 100px;
+	height: 100px;
+}
+
+
+a.icon img {
+	width: 100px;
+	height: 100px;
+	border: none;
+}
+
+
+a:visited {
+	border: none;
+}
+
+li p {
+	position: absolute;
+	opacity: 0;
+	width: 200px;
+	display: block;
+	line-height: 18px;
+	top: 120px;
+	left: -55px;
+	text-align: center;
+	font-size: 13px;
+	font-family: Arial, Helvetica, sans-serif;
+	font-weight: bold;
+	text-transform: uppercase;
+}
